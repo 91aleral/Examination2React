@@ -1,0 +1,17 @@
+.movieListsWrapper {
+display: grid;
+grid-template: repeat(5, 1fr);
+
+}
+
+
+
+
+.to-watchList {
+    grid-column: 2/4;
+    grid-row: 1;
+    cursor:pointer;
+    align-self: center;
+    justify-self: center;
+
+}
